@@ -1,13 +1,15 @@
 install:
-
+# install commands
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
 format:
-	# format
+# format -> The format of a Makefile is based on rules and targets
+	black *.py mylib/*.py
 lint:
-	# flake8 or pylint
+# flake8 or pylint
+	pylint --disable=R,C *.py mylib/*.py
 test:
-	# test
+# test
 deploy:
-	# deploy
+# deploy
 all: install lint test deploy
