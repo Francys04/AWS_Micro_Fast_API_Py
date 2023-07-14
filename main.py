@@ -1,3 +1,4 @@
 from mylib import logic
 
-print(logic)
+result = logic
+print(result)
