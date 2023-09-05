@@ -54,3 +54,12 @@ pytest test_logic.py`
 3. Populate "Makefile"
 4. Setup continious Integretion, i.e. check code for issues like lint errors
 5. Build cli using python fire library './cli-fire.py' to test logic 
+
+#### Fig.1 wiki/name result
+<img src="img/Capture1.JPG">
+
+#### Fig.2 phrase/name result
+<img src="img/Capture2.JPG">
+
+#### Fig.3 search/value result
+<img src="img/Capture 2.JPG">
